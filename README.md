@@ -38,8 +38,7 @@ $ cd experiment/
 $ python record.py [--sys_policy] [--sys_path]
 ```
 
-### training
-We need to get a dataset for imitation learning, the record.py can help you create a dataset for our model.
+## training
 * The source code is in the folder `mgail/multiwoz/`.
 ```
 $ cd mgail/multiwoz/
@@ -47,4 +46,16 @@ $ cd mgail/multiwoz/
 * execute `train.py`, remember to change the configuration in `config.json`.
 ```
 $ python train.py
+```
+
+
+## Testing
+We can use `analysis.py` in `experiment/` to get the performance and demo of our model.
+* The source code is in the folder `./experiment/`.
+```
+$ cd experiment/
+```
+* execute `analysis.py`. choose the policy for the system in [--sys_policy], and write down the model_path in [--sys_path].
+```
+$ python analysis.py [--sys_policy] [--sys_path]
 ```
