@@ -39,6 +39,12 @@ $ python record.py [--sys_policy] [--sys_path]
 ```
 
 ### training
+We need to get a dataset for imitation learning, the record.py can help you create a dataset for our model.
+* The source code is in the folder `mgail/multiwoz/`.
 ```
-$ python train.py [--sys_policy] [--sys_path]
+$ cd mgail/multiwoz/
+```
+* execute `train.py`, remember to change the configuration in `config.json`.
+```
+$ python train.py
 ```
