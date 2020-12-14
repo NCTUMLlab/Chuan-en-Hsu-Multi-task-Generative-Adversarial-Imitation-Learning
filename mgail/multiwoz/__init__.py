@@ -1,0 +1,1 @@
+from convlab2.policy.mgail.multiwoz.mgail import MGAIL
