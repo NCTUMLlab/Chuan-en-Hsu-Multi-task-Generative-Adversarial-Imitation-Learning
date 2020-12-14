@@ -4,11 +4,13 @@ This is the source code for the Master thesis Multi-task Generative Adversarial 
 
 
 ## Multi-task Generative Adversarial Imitation Learning
-Multi-task generative adversarial imitation learning (MGAIL) combines imitation learning with hierarchical reinforcement  learning. Unlike  traditional  imitation  learning,  we supposed that expert demonstration are a mixed dataset with multiple experts. With the combination of hierarchical architecture and generative adversarial imitation learning, it  can  solve  multi-task  problem  with  better  performance  and  stability.The  proposed MGAIL  is  evaluated  by  a  task-oriented  dialogue  system  which  is  known  as  an  RL scenario with sparse reward setting. Users interact with the systemor agentin orderto acquire the information they would like to know.Meanwhile, the system realizeswhat are the user intentionsthrough the conversationsin between, and therefore providesthe information  in  return. Besides, there areseveraltasks  in task-oriented  dialog  system, e.g.  restaurant  reservation, air  tickets  booking,  etc. The  agent  needs  to  handle  users’ various requirements. Results showedthat MGAILperforms betterwhile facing multi-task problemswith sparse reward environment compared to the other imitation learning algorithm, such as behavioral cloning method, generative adversarial imitation learning
-
-
+Multi-task generative adversarial imitation learning (MGAIL) combines imitation learning with hierarchical reinforcement  learning. Unlike  traditional  imitation  learning,  we supposed that expert demonstration are a mixed dataset with multiple experts. With the combination of hierarchical architecture and generative adversarial imitation learning, it  can  solve  multi-task  problem  with  better  performance  and  stability.The  proposed MGAIL  is  evaluated  by  a  task-oriented  dialogue  system  which  is  known  as  an  RL scenario with sparse reward setting. Users interact with the systemor agentin orderto acquire the information they would like to know.Meanwhile, the system realizeswhat are the user intentionsthrough the conversationsin between, and therefore providesthe information  in  return. Besides, there areseveraltasks  in task-oriented  dialog  system, e.g.  restaurant  reservation, air  tickets  booking,  etc. The  agent  needs  to  handle  users’ various requirements. 
 
 ![image](MGAIL.png)
+
+Results shows that MGAIL performs betterwhile facing multi-task problemswith sparse reward environment compared to the other imitation learning algorithm, such as behavioral cloning method, generative adversarial imitation learning
+
+
 # Get starting
 ## Environment
 The developed environment is listed in below
