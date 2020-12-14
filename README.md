@@ -29,14 +29,14 @@ Before starting, You should setup the ConvLab-2 package in https://github.com/th
 We need to get a dataset for imitation learning, the record.py can help you create a dataset for our model.
 * The source code is in the folder `./experiment/`.
 ```
-    cd experiment/
+$ cd experiment/
 ```
 * execute `record.py`. choose the policy for the system in [--sys_policy], and write down the model_path in [--sys_path].
 ```
-    python record.py [--sys_policy] [--sys_path]
+$ python record.py [--sys_policy] [--sys_path]
 ```
 
 ### training
 ```
-    python train.py [--sys_policy] [--sys_path]
+$ python train.py [--sys_policy] [--sys_path]
 ```
