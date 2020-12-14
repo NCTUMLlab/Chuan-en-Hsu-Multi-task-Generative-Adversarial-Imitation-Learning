@@ -1,8 +1,9 @@
-# Chuan-en-Hsu-Multi-task-Generative-Adversarial-Imitation-Learning
 
-## Introduction
+# Introduction
 This is the source code for the Master thesis Multi-task Generative Adversarial Imitation Learning from National Chiao Tung University, Taiwan. 
 ![image](MGAIL.png)
+
+# Multi-task Generative Adversarial Imitation Learning
 
 ## Get starting
 ### Environment
