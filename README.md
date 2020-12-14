@@ -31,7 +31,7 @@ We need to get a dataset for imitation learning, the record.py can help you crea
 ```
     cd experiment/
 ```
-* execute `record.py`.
+* execute `record.py`. choose the policy for the system in [--sys_policy], and write down the model_path in [--sys_path].
 ```
     python record.py [--sys_policy] [--sys_path]
 ```
