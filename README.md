@@ -24,6 +24,19 @@ The related python packages are listed in requirements.txt.
 ## Preprocess
 ### ConvLab-2 
 Before starting, You should setup the ConvLab-2 package in https://github.com/thu-coai/ConvLab-2. Download the package from the link and install it.
-```Python
-    python analysis [--sys_policy] [--sys_path]
+
+### Create an expert dataset
+We need to get a dataset for imitation learning, the record.py can help you create a dataset for our model.
+* The source code is in the folder `./experiment/`.
+```
+    cd experiment/
+```
+* execute `record.py`.
+```
+    python record.py [--sys_policy] [--sys_path]
+```
+
+### training
+```
+    python train.py [--sys_policy] [--sys_path]
 ```
